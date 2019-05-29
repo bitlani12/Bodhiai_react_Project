@@ -1,0 +1,217 @@
+.youraccuracy{
+    padding: 8px 0px 8px 0px;
+   box-shadow:  0px 0px 1px gray;
+    padding: 5px;
+    background-color: white;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border-top: solid #dc6926f0 2px; */
+}
+.imgs{
+    padding: 0;
+}
+.accuracy{
+ 
+    padding-top: 2px;
+      font-size: 20px;
+      padding-left: 40px;
+      text-align: left;
+  
+}
+.flipbutton {
+    height:100%;
+   
+    display:flex;
+    align-items:center; /* vertically aligned! */
+    justify-content: center;
+  }
+  .flipfrontdiv{
+      height: 260px;
+  }
+  /*circular progress bar  */
+
+  .CircularProgressbar {
+    /*
+     * This fixes an issue where the CircularProgressbar svg has
+     * 0 width inside a "display: flex" container, and thus not visible.
+     *
+     * If you're not using "display: flex", you can remove this style.
+     */
+    width: 100%;
+    
+    
+  }
+  
+  .CircularProgressbar .CircularProgressbar-path {
+    stroke: #3e98c7;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: #3e98c7;
+    font-size: 20px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-background {
+    fill: #d6d6d6;
+  }
+  /*
+   * Sample background styles. Use these with e.g.:
+   *
+   *   <CircularProgressbar
+   *     className="CircularProgressbar-inverted"
+   *     background
+   *     percentage={50}
+   *   />
+   */
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+    fill: #3e98c7;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+    fill: #fff;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+    stroke: #fff;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+    stroke: transparent;
+  }
+.backflipcard{
+    background-color: white;
+  
+}
+.texts{
+    font-size: 15px;
+  padding-top: 5px;
+  
+    align-items:center; /* vertically aligned! */
+    justify-content: center; 
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topic1{
+  padding:15px;
+  font-size: 16px;
+}
+.moredetailsbtn{
+  padding:10px;
+  padding-left: 20px;
+}
+.button1{
+  background-color: #ff6200e6;
+  color: white;
+  border-radius: 5px;
+  border: solid #ff6200e6 1px;
+  padding: 10px 20px 10px 20px ;
+}
+.progressbarstriped{
+  padding-top: 10px;
+height: 10px;
+}
+.progresaccuracy{
+  background-color: #383E49;
+padding: 5px;
+color: #383E49;
+height: 10px;
+line-height: 18px;
+}
+.progresaccuracy .progress-bar{
+background-color: #383E49;
+}
+
+.circleprogressbar{
+  display: inline-block;
+  margin-left: 18%;
+}
+
+.topic2{
+  font-size: 17px;
+  padding: 10px;
+}
+.accuracycardheight{
+ 
+  height: 350px;
+}
+.nextprevbtnaccuracy{
+  margin-top: -90px;
+}
+
+@media (min-width: 928px) and (max-width: 1280px) {
+ .accuracyshowtext{
+margin-left: 60px;
+width: 99%;
+ }
+ .circleprogressbar{
+   padding: 0px;
+   
+ }
+ .topic1{
+   padding: 10px;
+   width: 80%;
+ }
+}
+@media (min-width: 996px) and (max-width: 1280px) {
+ .accuracycardheight{
+height: 400px;
+ }
+ .topic2{
+  font-size: 16px;
+ margin-top: 3px;
+  padding: 2px;
+ }
+ .youraccuracy{
+   font-size: 16px;
+
+ }
+ .accuracy{
+   font-size: 18px;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 370px) {
+.accuracycardheight{
+  height: 320px;
+}
+  }
+  .textofmoredetail{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0;
+  }
+  .alignright{
+
+  }
+  .colortotal{
+    color:#69698b;
+  }
+  .colorright{
+    color:rgba(38, 195, 7, 0.83);
+  }
+
+  .colorwrong{
+    color:#ff6384;
+  }
+  .colorskipped{
+    color:#FFCE56;
+  }
+  .takeatleastonetestaccuracy{
+    vertical-align: middle;
+    display: table-cell;
+  height: 100%;
+  padding: 40px;
+  font-size: 20px;
+  font-weight: 400;
+    margin: 100px;
+    vertical-align: middle;
+  }

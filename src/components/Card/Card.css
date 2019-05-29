@@ -1,0 +1,15 @@
+.data{
+
+    height: 100px;
+    color: #fff;
+    margin: 20px;
+}
+.icon{
+    color:"whitesmoke";
+    font-size: 30px;
+}
+.showcards{
+
+display: inline;
+
+}

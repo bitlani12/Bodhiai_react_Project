@@ -1,0 +1,28 @@
+.video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+
+   height: 500px;
+
+}
+    .video-wrap iframe {
+        top: 0;
+        left: 0;
+width: 50%;
+    }
+    .vidsubject{
+        font-size: 23px;
+        font-family: monospace;
+        text-shadow: 1px 1px 1px gray;
+    }
+    .vidtitle{
+        font-size: 20px;
+        text-shadow: 1px 1px 1px gray;
+        font-family: initial;
+    }
+
+.recomenddashboardtitle{
+  
+}
+

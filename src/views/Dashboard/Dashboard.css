@@ -1,0 +1,208 @@
+.content {
+}
+.paperdetails {
+  max-height: 300px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.containers {
+  background-color: white;
+}
+.rodal-close:before,
+.rodal-close:after {
+  color: white;
+}
+.slick-slide,
+.slick-slide * {
+  outline: none !important;
+}
+
+.subject {
+  color: white;
+  padding: 5px;
+  font: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  color: black;
+
+  border: solid #ececec 1px;
+}
+.subjectimgifnot {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.questions {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+}
+.list {
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px #888888;
+  background-color: white;
+  padding-bottom: 10px;
+  border-radius: 2%;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+/* .topics{
+    padding: 5px;
+    margin-bottom: 0px;
+   margin-right: 10px;
+  } */
+.showallbtn {
+  border: solid #383e49 2px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2px 5px 2px 5px;
+
+  font-size: 12px;
+  margin: 0px;
+}
+.showallbtn:hover {
+  color: #dc6926f0;
+}
+.border {
+  border-bottom: solid #cac2c2 1px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.taketestbtn {
+  margin-top: 15px;
+  padding: 5px 30% 5px 30%;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  border: solid #ff6200e6 1px;
+  background-color: #ff6200e6;
+  border-radius: 20px;
+}
+.taketestbtn:hover {
+  color: #dc6926f0;
+  border: solid #dc6926f0 1px;
+  background-color: white;
+}
+.modaltopic {
+  background-color: #dc6926f0;
+  padding: 8px;
+  width: 200px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+.text {
+  font-family: "Cabin", sans-serif;
+  border-bottom: solid #d8d1d1 0.2px;
+  padding: 10px;
+}
+
+.modalok {
+  background-color: #dc6926f0;
+  padding: 2px 20px 2px 20px;
+  float: right;
+  border: solid #dc6926f0 1px;
+  color: white;
+}
+li {
+  list-style-type: none;
+}
+.subjectlogoimage {
+  width: 100%;
+}
+
+.dashboardquestionnumber {
+  margin-top: -10px;
+  padding: 5px;
+}
+.topics {
+  padding: 5px;
+}
+
+.onetopic {
+  text-align: left;
+}
+@media (min-width: 1281px) {
+  .spaceinbox {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    max-height: 320px;
+
+    width: 100%;
+    padding: 0px;
+  }
+
+  .no {
+    font-size: 12px;
+  }
+
+  .spaceinbox {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .paperdetails {
+    max-height: 350px;
+  }
+
+  .spaceinbox {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .paperdetails {
+    max-height: 320px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .paperdetails {
+    max-height: 320px;
+    margin-bottom: 10px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .paperdetails {
+    max-height: 330px;
+  }
+}

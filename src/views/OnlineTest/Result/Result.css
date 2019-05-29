@@ -1,0 +1,167 @@
+.testresult {
+  padding: 0px 2% 0 2%;
+  margin-top: 10;
+}
+.resultsummary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: stretch;
+}
+.fonticon {
+  font-size: 30px;
+  padding-right: 15px;
+  padding-top: -10px;
+}
+.questionimg {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.item {
+  flex-shrink: 0;
+  display: flex;
+  text-align: center;
+  margin: 10px;
+  background-color: #000000;
+  padding: 10px;
+  width: 40%;
+}
+.resultsummary .item:nth-of-type(1) {
+  font-weight: 600;
+
+  color: #0aadfd;
+}
+.resultsummary .item:nth-of-type(2) {
+  font-weight: 600;
+  color: #69698b;
+}
+/* .resultsummary .item:nth-of-type(2) {
+
+    color: #69698b;
+   } */
+.resultsummary .item:nth-of-type(3) {
+  font-weight: 600;
+  color: #ffce56;
+}
+.resultsummary .item:nth-of-type(4) {
+  font-weight: 600;
+  color: rgba(38, 195, 7, 0.83);
+}
+.resultsummary .item:nth-of-type(5) {
+  font-weight: 600;
+  color: #ff6384;
+}
+.circle {
+  border-radius: 50%;
+  border: dashed gray 2px;
+  height: 180px;
+
+  text-align: center;
+
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  padding-top: 45px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.marks {
+  width: 180px;
+  margin-top: 5px;
+  align-items: center;
+  margin-left: 30%;
+}
+.marksborder {
+  border-bottom: double black 5px;
+}
+.markcss {
+  vertical-align: middle;
+  margin: 5px;
+  font-size: 20;
+}
+.marksoutof {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkseagreen;
+}
+.mainmarks {
+  font-size: 26;
+}
+.markstotalof {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #909090;
+  font-size: 22;
+}
+.totalmarksget {
+  font-size: 26;
+}
+.showmarks {
+  align-items: center;
+
+  text-align: center;
+}
+.markstext {
+  font-size: 22px;
+  font-weight: 800;
+}
+.resultquestion {
+  text-align: left;
+  padding: 10px;
+}
+.resultoptions {
+  text-align: left;
+  padding: 15px;
+}
+.nodisplay {
+  display: none;
+}
+.resultcardhead {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1572abcf;
+}
+.correctbadges {
+  font-size: 13px;
+  font-weight: 800;
+  background-color: #03bb91;
+  color: white;
+  border-radius: 5px;
+  border: solid #03bb91 3px;
+  padding: 2px;
+}
+
+.questionstatusbadge {
+  font-size: 13px;
+  font-weight: 800;
+
+  color: white;
+  border-radius: 13%;
+
+  padding: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .testresult {
+    padding: 0px 2% 0 2%;
+    margin-top: 10;
+  }
+
+  .item {
+    flex-shrink: 0;
+    /* background-color: rgb(56, 62, 73); */
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    display: block;
+  }
+  .resultcardhead {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1572abcf;
+  }
+}

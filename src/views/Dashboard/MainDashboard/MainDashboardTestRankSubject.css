@@ -1,0 +1,117 @@
+.lisubject{
+    text-align: center;
+    padding: 5px;
+    border-bottom: solid #383e49 2px;
+    cursor: pointer;
+}
+.onlyclosebutton{
+  
+}
+.subjectoptions{
+  
+    margin: 10px;
+}
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  margin-top: 10px; /* demo only */
+    width: 100%;
+  }
+  .custom-dropdown select {
+    background-color: #383e49;
+    color: #fff;
+
+    font-size: inherit;
+    padding: .5em;
+    padding-right: 2.5em;	
+    border: 0;
+    margin: 0;
+    border:solid white 2px;
+    border-radius: 3px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 100%;
+    -webkit-appearance: button; /* hide default arrow in chrome OSX */
+  }
+  .custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  color: white;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+
+
+
+.custom-dropdown select .svalue{
+    padding-top: 5px;
+    background-color: white;
+    color:black;
+
+} 
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+ margin-top: 0px;
+    width: 100%;
+  }
+  .custom-dropdown select {
+    background-color: rgb(216, 216, 216);
+    color: black;
+
+    font-size: inherit;
+    padding: .5em;
+    padding-right: 2.5em;	
+    border: 0;
+    margin: 0;
+  
+    border-radius: 3px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 100%;
+    -webkit-appearance: button; /* hide default arrow in chrome OSX */
+  }
+  .custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  color: black;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+
+
+
+.custom-dropdown select .svalue{
+    padding-top: 5px;
+    background-color: white;
+    color:black;
+
+} 
+}

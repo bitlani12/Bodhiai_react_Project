@@ -1,0 +1,683 @@
+.fab {
+  background: #dedede;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  font-family: Helvetica Neue;
+  overflow: hidden;
+  position: fixed;
+  bottom: 32px;
+  top: initial;
+  right: 50px;
+  border-radius: 100%;
+  padding: 10px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+  border: solid #f57c00 1px;
+}
+.fabmobile {
+  position: fixed;
+  background: gray;
+  z-index: 999;
+  top: 150;
+  left: 0;
+  background-image: linear-gradient(to right, #fa8900, #fa8900);
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 0px 100px 100px 0px;
+  border: solid black 1px;
+  text-align: center;
+}
+.fabcancel {
+  background: #ea1515;
+  border-radius: 10px;
+  /* -webkit-box-shadow: 0 12px 24px 0 rgba(0,0,0,0.15); */
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  font-family: Helvetica Neue;
+  overflow: hidden;
+  position: fixed;
+  color: white;
+  bottom: 32px;
+  top: initial;
+  right: 50px;
+  border-radius: 100%;
+  padding: 20px;
+  /* -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite; */
+  border: solid #f57c00 1px;
+}
+.verticalborderfotbot {
+  padding: 10px;
+  position: fixed;
+  top: 100;
+  height: 60px;
+  left: 40;
+  border-right: solid 1px black;
+}
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #f5f2f2;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff9800;
+    transform: scale(1);
+  }
+  50% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+    box-shadow: 0 0 20px #c74a22;
+    transform: scale(2);
+  }
+  100% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff5722;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #f5f2f2;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff9800;
+    transform: scale(2);
+  }
+  50% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+    box-shadow: 0 0 20px #c74a22;
+    transform: scale(2);
+  }
+  100% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff5722;
+  }
+}
+
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #f5f2f2;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff9800;
+    transform: scale(1);
+  }
+  50% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+    box-shadow: 0 0 20px #c74a22;
+  }
+  100% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff5722;
+  }
+}
+
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #f5f2f2;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff9800;
+  }
+  50% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+    box-shadow: 0 0 20px #c74a22;
+  }
+  100% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff5722;
+  }
+}
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #f5f2f2;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff9800;
+  }
+  50% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+    box-shadow: 0 0 20px #c74a22;
+  }
+  100% {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 3px #b20000;
+    box-shadow: 0 0 3px #ff5722;
+  }
+}
+
+.chatbotlayout {
+  /* position: fixed ; 
+    bottom: 0 ; 
+    background-color: white ; 
+    height: 350px;
+    z-index: 1200 ; 
+    right:  32;
+    width: 300px;
+    box-shadow: 1px 1px 1px 1px grey;
+    overflow-y: scroll; */
+  background: #dedede;
+
+  border-radius: 10px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  font-family: Helvetica Neue;
+  overflow: hidden;
+  position: fixed;
+  bottom: 100px;
+  top: initial;
+  right: 32px;
+  left: initial;
+  width: 350px;
+  height: 520px;
+  z-index: 999;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+  transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: 0.3s linear;
+  animation: odsoky 1s ease-out;
+  background-image: url(./../../images/chatbotbackground.png);
+  height: 80%;
+  width: 420px;
+}
+.chatbotlayoutmobile {
+  background: #dedede;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  font-family: Helvetica Neue;
+  /* overflow: hidden; */
+  position: fixed;
+  /* bottom: 100px; */
+  /* overflow: scroll;
+  overflow-y: scroll; */
+  overflow: hidden;
+  top: initial;
+  /* right: 32px; */
+  left: initial;
+  width: 100%;
+  height: 90%;
+  z-index: 999;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+  transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: 0.3s linear;
+  animation: odsoky 1s ease-out;
+  background-image: url(./../../images/chatbotbackground.png);
+}
+.chatbotheader {
+  /* background-color: red;
+width: 100%;
+color: white;
+position: sticky;
+top: 0;
+font-size: 18px;
+padding: 10px; */
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #383e49;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #fff;
+  height: 56px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 10px;
+  background: linear-gradient(45deg, #fa8900 45%, #fa8900 100%);
+}
+
+.messagesendbybot {
+  padding: 10px;
+  background-color: "white";
+  /* float: left; */
+  /* width: 80%; */
+  max-width: 80%;
+  background-color: black;
+  box-shadow: 1px 1px 2px 2px #dadada;
+  border-radius: 50px 60px 100px 0px;
+  /* margin-left: 5px; */
+  color: white;
+  display: table;
+  margin: 5px 0px 5px 0px;
+  box-shadow: 2px 2px 10px 1px #989696;
+  display: inline-block;
+  box-shadow: 2px 2px 10px 1px #e0dfdf;
+  color: black;
+  background-color: white;
+}
+
+.messagelastpoint {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  border-top: 6px solid rgba(0, 0, 0, 0.3);
+  left: 0;
+  border-right: 7px solid transparent;
+}
+
+.chatsection {
+  height: calc(520px - 112px);
+  overflow-y: scroll;
+  /* margin-top: 2px; */
+  padding-top: 6px;
+  padding: 6px 10px 0px 10px;
+  height: calc(95% - 112px);
+}
+.chatsectionmobile {
+  height: 92%;
+  overflow-y: scroll;
+  /* margin-top: 2px; */
+  padding-top: 6px;
+  padding: 6px 10px 0px 10px;
+}
+.taketestview {
+  background-image: url("./../../images/chatbottaketest.png");
+  height: 50%;
+  width: 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  vertical-align: middle;
+}
+.chatbottaketestbtn {
+  margin-top: 50%;
+  margin-top: 50%;
+  background-color: #4a4a4a;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 100px;
+}
+.messagesendbyuser {
+  padding: 10px;
+
+  /* float: left; */
+  /* width: 80%; */
+  max-width: 80%;
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px #dadada;
+
+  /* margin-left: 5px; */
+  color: white;
+  display: table;
+  margin: 5px 0px 5px 0px;
+  float: right;
+  border-radius: 50px 100px 0px 100px;
+  box-shadow: 2px 2px 10px 1px #989696;
+  background-color: #fa8900;
+}
+.bottombtnforchat {
+  position: fixed;
+  text-align: center;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  width: 100%;
+  bottom: 0;
+  margin: 0px 0px 10px 0px;
+  display: flex;
+  border-top: solid #1b1b1b4d 2px;
+}
+
+.btndesignforbottom {
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 100px;
+}
+.buttonss {
+  position: fixed;
+  bottom: 50px;
+  right: 90px;
+  color: white;
+  text-align: center;
+  transform-origin: 50% 50%;
+  /* animation: jump  linear alternate infinite; */
+  /* animation: wavess 17s  -0.773s linear  infinite; */
+}
+
+.buttonss:hover em,
+.buttonss.hover em {
+  top: -100%;
+}
+
+.buttonss:hover i,
+.buttonss.hover i {
+  top: 0%;
+}
+
+.buttonss::before,
+.buttonss::after {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.buttonss::before {
+  content: "Personal Teacher";
+  width: 160px;
+  height: 60px;
+  background: #fd8e49;
+  border-radius: 0.25em;
+  bottom: 90px;
+  line-height: 60px;
+  left: calc(50% - 80px);
+  font-size: 15px;
+}
+
+.buttonss::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 10px solid transparent;
+  border-top-color: #fd8e49;
+  bottom: 70px;
+  left: calc(50% - 10px);
+}
+
+.buttonss:hover::before,
+.buttonss:hover::after,
+.buttonss.hover::before,
+.buttonss.hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.buttonss:hover::before,
+.buttonss.hover::before {
+  bottom: 80px;
+}
+
+.buttonss:hover::after,
+.buttonss.hover::after {
+  bottom: 60px;
+}
+
+/* // this is for input range */
+
+.aimboxview {
+  background-color: #fa8900c4;
+  display: table;
+  /* float: right; */
+  width: 60%;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+  background-color: gray;
+}
+input[type="range"]:focus {
+  outline: none;
+  background-color: black;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #989696;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  /* border: 1px solid #000000; */
+  height: 5px;
+  width: 16px;
+  border-radius: 3px;
+  background: #525050;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+  /* background-color: #eee; */
+  /* opacity: 0.8; */
+  /* box-shadow: 2px 1px 1px 1px #565555; */
+  border-radius: 100%;
+  padding: 10px 10px 10px 10px;
+}
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type="range"]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type="range"]::-ms-fill-lower {
+  background: #2a6495;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type="range"]::-ms-fill-upper {
+  background: #3071a9;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type="range"]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type="range"]:focus::-ms-fill-lower {
+  background: #3071a9;
+}
+input[type="range"]:focus::-ms-fill-upper {
+  background: #367ebd;
+}
+
+.choosecoursetimeview {
+  border: solid black 1px;
+  width: 60%;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 2px 10px 1px #989696;
+  margin-top: 5px;
+}
+.subjectofchoosecourse {
+  border-bottom: solid;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+  background-color: #187ad0;
+  border-radius: 20px 20px 0px 0px;
+  color: white;
+}
+.shownewmessage {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.shownewmessage span {
+  background: #fff;
+  padding: 0 0px;
+}
+.chartview {
+  background-color: white;
+  padding: 10px;
+  width: 80%;
+  box-shadow: 2px 2px 10px 1px #e0dfdf;
+  border-radius: 10px 10px 10px 10px;
+}
+.chartviewright {
+  background: #4caf50;
+  height: 50px;
+  padding: 20%;
+  color: white;
+  border-radius: 10px;
+}
+.chartviewwrong {
+  height: 50px;
+  background: #f44336;
+  color: white;
+  padding: 19%;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.scoreofprogressview {
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.disablebuttonchatbot {
+  opacity: 0.9;
+}
+.backcolor {
+  background-color: red;
+}
+.messagebotinsidemessage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+.setgoalsbottom {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.setgoalbtndiv {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.setgoalbtn {
+  width: 60%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 100px;
+}
+.subjectbriefviewdata {
+  background-color: #d6d6d68a;
+  padding: 10px;
+  border-radius: 10px;
+}
+.subjectbriefsubject {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.questionssolvedbrief {
+  float: right;
+  color: black;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+@media only screen and (max-width: 500px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  .aimboxview {
+    background-color: #fa8900c4;
+    display: table;
+    /* float: right; */
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .bottombtnforchat {
+    position: fixed;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    /* bottom: -20px; */
+    /* margin: 0px 0px 10px 0px; */
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* background: #d4eefc; */
+    border-top: solid #1b1b1b4d 2px;
+  }
+}
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+}

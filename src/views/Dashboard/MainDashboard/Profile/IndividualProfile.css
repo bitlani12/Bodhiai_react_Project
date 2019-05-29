@@ -1,0 +1,88 @@
+.profilepersonname {
+  background-color: white;
+}
+.paras {
+  color: white;
+  background: #fd8e49;
+  padding: 70px;
+  text-align: center;
+}
+.card-blocks {
+  position: relative;
+  top: -90px;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.white-texts {
+  padding: 0px;
+}
+.rounded-circles {
+  border-radius: 50%;
+  margin-right: 10px;
+  border: solid #f9f3f3 6px;
+}
+.rodal-dialog {
+  padding: 0px;
+}
+.rodal,
+.rodal-mask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed !important;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+}
+.userdetails {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  width: 80%;
+  text-align: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.userdetail {
+  flex-direction: row;
+  padding: 10px;
+
+  text-align: center;
+}
+.profilesubject {
+  font-weight: 400;
+}
+.userdetail:nth-of-type(2) {
+  color: #fd8e49;
+}
+.gridcard {
+  width: 80%;
+  margin: auto;
+}
+.profiledetailcard {
+  margin: auto;
+  padding: 1%;
+}

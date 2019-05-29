@@ -1,0 +1,116 @@
+.ranktable {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.project-title {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: -20px;
+}
+.tableborderbottom {
+  margin-bottom: 20px;
+}
+.tableFixHead th {
+  position: sticky;
+  background-color: white;
+  height: 50px;
+  top: 0;
+}
+.eyeimg {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  margin-right: 10px;
+  border: solid white 6px;
+}
+.progres {
+  padding: 5px 5px 2px 5px;
+  margin-top: 5px;
+
+  line-height: 18px;
+}
+.acc {
+  margin-top: -15px;
+}
+.progres .progress-bar {
+  background-color: #fd8e49;
+}
+.oftable {
+  padding: 10px;
+  border-bottom: solid #e4e0e0c2 1px;
+}
+.rodal-close:before,
+.rodal-close:after {
+  color: white;
+}
+.scrollbars {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  max-height: 500px;
+}
+.table-hover > tbody > tr.found:hover > td,
+.found {
+  background-color: #ff741e;
+  color: white;
+}
+.found:hover {
+  background-color: #fd8e49e6;
+}
+/* .myBox {
+        border: none;
+        padding: 5px;
+       width: 100%;
+        height: 500px;
+        overflow: scroll;
+        overflow-y: auto;    /* Trigger vertical scroll    
+        overflow-x: auto; 
+        }
+         */
+/* Scrollbar styles */
+/* ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+        }
+        
+        ::-webkit-scrollbar-track {
+        border: 1px solid orange;
+        border-radius: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+        background: #ff741e;;  
+        border-radius: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+        background: orange;  
+        }  */
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 2px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.loadmorebtn {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 100px;
+  border: solid gray 1px;
+  background-color: gray;
+
+  color: white;
+}
+/* .tableFixHead th{
+            position: unset;
+        } */

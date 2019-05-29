@@ -1,0 +1,186 @@
+.rodal,
+.rodal-mask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed !important;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ols {
+  background-color: lightblue;
+}
+.lis {
+  padding: 10px;
+  color: royalblue;
+  background-color: white;
+  border-bottom: 1px solid red;
+}
+
+.tabname {
+  border: solid #d6d3d38a 1px;
+  color: black;
+}
+
+.classtabheading {
+  padding: 10;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+
+  border-bottom: solid gray 1px;
+}
+
+.tabname ul > li.active > a,
+.tabname ul > li.active > a:hover,
+.tabname ul > li.active > a:focus {
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  border-left: solid black 5px;
+  background-color: orange;
+  color: white;
+  border-right: solid black 2px;
+}
+.myClass {
+}
+.tabsofsubject {
+  padding: 10px;
+  color: black;
+}
+.tabname ul > li.active > a::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  right: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-left: 10px solid black;
+  display: block;
+  width: 0;
+}
+.tabtext {
+  color: black;
+}
+.tabtaketest {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+
+  text-align: center;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+.numbertab {
+  width: 20px;
+  color: red;
+}
+
+.tabtaketest:nth-child(2) {
+  background-color: green;
+  color: green;
+}
+.noofqesti {
+}
+
+.tabpublished {
+  padding-right: 5%;
+}
+
+@media screen and (min-width: 1024) and (max-width: 1200px) {
+  .noofqesti {
+    padding-left: 6%;
+  }
+}
+.tabheading {
+  font-weight: 600;
+  font-size: 18px;
+}
+.listofsubject {
+  width: 80%;
+  /* background-color: #90caf9; */
+  padding: 30px;
+  background: #607182;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  border-radius: 10px;
+  color: black;
+  margin: 10px;
+  /* border: solid black 1px; */
+  font-weight: 800;
+  -webkit-box-shadow: 5px 1px 10px 2px #dedfe06b;
+  /* box-shadow: 1px 1px 5px 5px #40c4ff6b; */
+  margin: auto;
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#d3d8da), to(#3023656b)); */
+  /* background: -webkit-linear-gradient(top, #234e5f 0%, #3023656b 100%); */
+  /* background: -o-linear-gradient(top, #d3d8da 0%, #3023656b 100%);
+   background: linear-gradient(to bottom, #F57C00 0%, #ffa726d1 100%); */
+  color: #7e57c2db;
+  color: white;
+}
+.listofsubject:hover {
+  background: lightslategray;
+  transform: scale(1.05);
+  color: white;
+}
+.definemargin {
+  width: 60%;
+  margin: auto;
+}
+
+.takeindividualtestbtn {
+  border-radius: 100px;
+  background-color: #ff6200e6;
+  padding: 5px 10px;
+  border: solid #ff6200e6 1px;
+  color: white;
+}
+/* ///////// */
+.buttononhover {
+  display: none;
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.img-container:hover .buttononhover {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.img-container:hover .imgg {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}

@@ -1,0 +1,22 @@
+.line {
+  width: 70%;
+  margin-right: 20px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 8px;
+}
+.progressheadtext {
+  color: black;
+  padding-top: 2px;
+  font-size: 20px;
+  padding-left: 40px;
+  text-align: left;
+}
+.dashboardprogressheader {
+  padding: 15px;
+}
+.Mainperformance {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 200px;
+  width: "100%";
+}

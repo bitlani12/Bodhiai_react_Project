@@ -1,0 +1,37 @@
+.weakareasdetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: stretch;
+}
+.item {
+  flex-shrink: 0;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+  font-size: 17px;
+}
+.weakareasdetail .item:nth-of-type(1) {
+  border: solid #26c307d4 2px;
+  color: #26c307d4;
+}
+.weakareasdetail .item:nth-of-type(2) {
+  border: solid #ff6384 2px;
+  color: #ff6384;
+}
+.weakareasdetail .item:nth-of-type(3) {
+  border: solid #ffce56 2px;
+  color: #ffce56;
+}
+.weakareasdetail .item:nth-of-type(4) {
+  border: solid #36a2eb 2px;
+  color: #36a2eb;
+}
+.Mainperformance {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 200px;
+  width: "100%";
+}

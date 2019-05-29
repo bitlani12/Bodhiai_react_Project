@@ -1,0 +1,120 @@
+.firststep{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.languageandsubjectselect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+width: 100%;
+}
+.opt{
+    padding: 20px;
+  
+    
+
+
+}
+.laststep{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gofortest{
+   margin: 10px;
+   text-align: center;
+}
+.btnnextstep{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+  
+  
+}
+.btninselectlanguageandsubject{
+  margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 5px 20px #008b8b7a, 0 1px 1px #057d7d;
+    background-color: white;
+    border: 3px solid darkcyan;
+    font-weight: 400;
+    color: darkcyan
+}
+.gobtn{
+
+    border-radius: 8px 8px 8px 8px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+  margin-left: 10px;
+    background-color: white;
+    border: 2px solid #d87513;
+    font-weight: 200;
+    color: #d87513;
+    text-shadow: 1px 2px 1px #d87513;
+}
+.gobtn:hover{
+    font-weight: 400;
+    border: 3px solid #d87513;
+    box-shadow: 0 5px 20px #d875137a, 0 1px 1px #d87513;
+}
+ .color{
+      /* background-color: #06c;
+      opacity: 0.7; */
+     
+ }
+ .radiobtn{
+     border: solid red 1px;
+     background-color: white;
+ }
+ .btn-ghost {
+    display: block;
+    width: 340px; width: 34rem;
+    height: 66px; height: 6.6rem;
+    font: 700 20px/66px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font: 2.0rem/6.6rem;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .16s ease;
+    margin: 0 auto;
+  }
+  .btn-blue  { color: #06c; border: 2px solid #06c; }
+  .btn-blue:hover, .btn-blue:active, .btn-blue:focus  {
+    color: #fff;
+    background-color: #06c;
+    border: 2px solid #06c;
+  }
+  @media screen and (max-width: 420px) { /* iPhone Landscape */
+    .btn-ghost {
+      width: 290px; width: 29.0rem;
+      height: 50px; height: 5.0rem;
+      font-size: 16px; font-size: 1.6rem;
+      line-height: 50px; line-height: 5.0rem;
+    }
+  }
+  @media screen and (max-width: 1250px){
+    .languageandsubjectselect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    width: 100%;
+    }
+    .opt{
+        padding: 10px;
+        margin: 10px;
+     width: 100%;
+    }
+  }
+

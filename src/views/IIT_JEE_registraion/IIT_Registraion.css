@@ -1,0 +1,33 @@
+.bodhiai{
+    font-weight: 800;
+    font-size: 28;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.titlerank{
+    font-weight: 500;
+    font-size: 28;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: initial;
+}
+.alreadyaccount{
+    font-weight: 100;
+    font-size: 15;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.instructions{
+    font-size: 16;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+/*
+ * COLORS
+*/
+/*
+ * MAIN
+*/

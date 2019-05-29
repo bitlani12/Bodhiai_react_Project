@@ -1,0 +1,54 @@
+.rank{
+ border-top: solid orange 2px;
+    height: 50vh;
+    background-color: white;
+}
+.yourrank{
+    padding: 0px;
+    font-size: 20px;
+}
+.rankheader{
+   padding: 10px;
+   background-color: white;
+
+}
+.rankimage{
+    height: 200px;
+    width: 200px;
+}
+.img-responsive {
+    padding: 10px;
+    
+}
+
+.rankimagetext {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.rankvalue{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+ color: black;
+ font-size: 40px;
+}
+.ranksubject{
+    font-size: 20px;
+}
+.tr{
+padding: 20px;
+text-align: left;
+
+}
+.td{
+    padding: 5px;
+   
+}
+.table{
+    font-size: 16px;
+    margin-left: 50px;
+    align-items: center;
+}

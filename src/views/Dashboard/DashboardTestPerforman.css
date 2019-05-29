@@ -1,0 +1,409 @@
+.slick-slide{
+  padding: 0;
+  margin: 0;
+  
+}
+   .slick-list1{
+   
+     padding: 0;  
+    
+   }
+   .slick-slide:nth-child(1) {
+    
+  }
+  .padding{
+    padding: 5px;
+  padding-top: 15px;
+  }
+  
+  .slick-slide>div {padding: 0 20px;}
+  .questions{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+  }
+  .list{
+    box-shadow: 0px 0px 5px  #888888;
+    background-color: #fdfeff;
+  
+   font-family: 'Nanum Gothic', sans-serif;
+  }
+  
+    .CircularProgressbar {
+        /*
+         * This fixes an issue where the CircularProgressbar svg has
+         * 0 width inside a "display: flex" container, and thus not visible.
+         *
+         * If you're not using "display: flex", you can remove this style.
+         */
+        width: 100%;
+        
+        
+      }
+      
+      .CircularProgressbar .CircularProgressbar-path {
+        stroke: #3e98c7;
+        stroke-linecap: round;
+        transition: stroke-dashoffset 0.5s ease 0s;
+      }
+      
+      .CircularProgressbar .CircularProgressbar-trail {
+        stroke: #d6d6d6;
+      }
+      
+      .CircularProgressbar .CircularProgressbar-text {
+        fill: #3e98c7;
+        font-size: 20px;
+        dominant-baseline: middle;
+        text-anchor: middle;
+      }
+      
+      .CircularProgressbar .CircularProgressbar-background {
+        fill: #d6d6d6;
+      }
+      
+      /*
+       * Sample background styles. Use these with e.g.:
+       *
+       *   <CircularProgressbar
+       *     className="CircularProgressbar-inverted"
+       *     background
+       *     percentage={50}
+       *   />
+       */
+      .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+        fill: #3e98c7;
+      }
+      
+      .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+        fill: #fff;
+      }
+      
+      .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+        stroke: #fff;
+      }
+      
+      .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+        stroke: transparent;
+      }
+
+      .listActivetest{
+        border: 1px solid rgb(241, 240, 240);
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .title{
+       margin: 8px 0px 10px 8px;
+       font-weight: semi-bold;
+    }
+    
+    .news-item{
+        font-size: 14px;
+        font-weight: 100;
+        margin: 4px;
+        border-bottom: 2px solid rgb(241, 240, 240);
+    }
+    .testperformancheight{
+      height: 350px;
+    }
+    .prevnextbtn{
+      margin-top: -60px;
+       background-color: black;
+     }
+    @media screen and (max-width:767px) {
+      .slider2{ padding-top:10px;}
+      table{padding: 0%}
+  }
+    /**** ****/
+
+ tr{                                          
+    padding: 30px;                            
+       
+  
+ }
+ .td{
+   padding: 10px;
+ }
+.table{
+  margin-top: 20px;
+}
+ .tables{
+   width: 100%;
+
+ }
+ .slider2{
+  max-height:320px;
+  height:15.67vh;
+ text-align: center;
+ margin-bottom: 0;
+
+ }
+.wrongAnswers{
+  
+  color: red;
+  padding: 2px;
+}
+.valuewrng{
+
+  color: red;
+  text-align: center;
+ 
+}
+.attempted{
+  color: #19235c;
+ 
+}
+.valattempted{
+  color: #19235c;
+ 
+  text-align: center;
+
+}
+.valtotalq{
+ 
+  color: black;
+  text-align: center;
+
+}
+.totalq{
+
+color: black;
+}
+.subject2{
+ 
+color:  black;
+padding: 8px 0px 8px 0px;
+font-size: 20px;
+}
+.time{
+ 
+  color:#056b61;
+}
+.valtime{
+
+  color: #056b61;
+  text-align: center;
+
+
+}
+.rightans{
+
+  color: #66bb6a;
+}
+.valrightans{
+
+  color: #66bb6a;
+  text-align: center;
+ border-radius: 100%;
+
+}
+.testporform{
+ padding-top: 2px;
+ font-size: 20px;
+}
+.testperf{
+  text-align: left;
+  padding-left: 20px;
+}
+.testperformancecircular{
+  margin: 0px;
+  text-align: center;
+  padding-top: 40px;
+}
+.testperformancetable{
+  padding: 0px;
+  margin: 0px;
+  display:inline-block;
+}
+.settestperformance{
+  display:flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.progressbar{
+  display: inline-block;
+}
+
+@media (min-width: 1281px) {
+  
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media   (min-width: 1280px) and (max-width: 1500px) {
+
+  .testperformancetable{
+    width: 75%;
+ margin-left: -10px;
+  } 
+}
+@media   (min-width: 1280px) and (max-width: 1500px) {
+
+  .testperformancetable{
+    width: 80%;
+
+  }
+  
+  
+}
+
+@media   (min-width: 1200px) and (max-width: 1280px) {
+  .testperformancetable{
+    margin-top: -15px;
+    margin-left: -30px;
+    text-align: center;
+    }
+    .testperformancecircular{
+      margin: 0px;
+      padding: 0px;
+    margin-top: -60px;
+    margin-left: 80%;
+    }
+}
+@media   (min-width: 1023px) and (max-width: 1200px) {
+  .testperformancetable{
+    margin-top: -15px;
+    padding-left: 10%;
+    text-align: center;
+    }
+   
+}
+@media   (min-width: 1023px) and (max-width: 1280px) {
+  .slider2{
+    margin-bottom: 20px;
+    background-color: red;
+  
+  }
+  .settestperformance{
+    flex-direction:column
+  }
+  .first{
+    order:2;
+  }
+  .second{
+    order: 1;
+  }
+ .testperformancetable{
+  
+  
+   width: 100%;
+   text-align: center;
+
+ }
+
+ .testperformancetable{
+ margin-top: -15px;
+ text-align: center;
+
+ }
+  .testperformancecircular{
+    margin: 0px;
+   
+    padding-top: 20px;
+  margin-top: -60px;
+  margin-left: 80%;
+  }
+  .testperformancheight{
+    height: 400px;
+  }
+  .prevnextbtn{
+    margin-top: -8px;
+     background-color: black;
+   }
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 1000px) and (max-width: 1170px) {
+  
+ .testperformancetable{
+   margin-left: -50%;
+ }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 370px) and (max-width: 480px) {
+  
+  .testperformancetable{
+    width: 90%;
+    margin-left: -10px;
+  }
+  
+}
+@media (min-width: 320px) and (max-width: 370px) {
+  
+  .settestperformance{
+    flex-direction:column
+  }
+  .first{
+    order:2;
+  }
+  .second{
+    order: 1;
+  }
+ .testperformancetable{
+   width: 60%;
+   margin-right: 30px;
+
+ }
+ .testperformancecircular{
+   margin-top: -95px;
+   margin-left: 115%;
+ }
+ .testperformancetable{
+ margin-top: -15px;
+ }
+ .testperformancheight{
+   height: 410px;
+ }
+}
+
+@media (min-width: 1280px) and (max-width: 1320px) {
+  .settestperformance{
+    margin-left: -1%;
+  }
+}
+@media (min-width: 1170px) and (max-width: 1200px) {
+  .testperformancetable{
+  margin-left: -30%;
+  }
+}
